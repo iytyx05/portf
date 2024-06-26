@@ -1,0 +1,48 @@
+.gallery {
+  background: url("../../assets/icons/bgimage.jpg") no-repeat center/cover;
+  padding: 50px 0;
+}
+
+.gallery-title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.02em;
+  color: #292C32;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.gallery-list {
+  border-radius: 5px;
+  padding: 30px 10px;
+  background: #292C32;
+  justify-content: center;
+  column-gap: 7px;
+  row-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .gallery-list-item {
+    position: relative;
+    height: 300px;
+
+    img {
+      border-radius: 5px;
+      height: 280px;
+      width: 270px;
+    }
+  }
+
+  .gallery-list-item:hover::after {
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s;
+    color: #a5a1b2;
+    content: "Посмотреть ";
+    position: absolute;
+    bottom: 0;
+    top: calc(50% - 10px);
+    left: calc(50% - 40px);
+  }
+}

@@ -1,0 +1,61 @@
+.service {
+  padding: 100px 0 20px;
+
+  .service-title {
+    font-family: 'Source Serif Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #1a759c;
+  }
+
+  .service-text {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #292C32;
+  }
+
+  .service-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 40px;
+    column-gap: 30px;
+    row-gap: 20px;
+
+    .service-container-card {
+      row-gap: 10px;
+      padding: 30px 50px 50px 30px;
+      max-width: 30%;
+      background: #F4F3F0;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 5px 0;
+
+      .service-container-card-title {
+        font-family: 'Source Serif Pro', sans-serif;
+        color: #3A5F56;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+      }
+
+      .service-container-card-text {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #292C32;
+      }
+    }
+  }
+}

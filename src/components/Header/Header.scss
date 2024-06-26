@@ -1,0 +1,85 @@
+  .header {
+    padding: 20px 0;
+    background: #37c0a0;
+
+    .container {
+      .header-nav {
+        .header-box {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .header-box-left {
+            justify-content: space-between;
+            display: flex;
+
+            .header-box-left-title {
+              color: #3A5F56;
+              font-family: 'Source Serif Pro', sans-serif;
+              font-weight: 700;
+              font-size: 36px;
+            }
+          }
+
+          .header-box-menu {
+            display: flex;
+            column-gap: 30px;
+            align-items: center;
+
+            .register-btn {
+              border: 2px solid #3A5F56;
+              font-family: 'Roboto', sans-serif;
+              color: #FFFFFF;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              padding: 10px;
+              background: #3A5F56;
+              border-radius: 6px;
+              transition: .3s;
+              margin-right: -20px;
+
+              &:hover {
+                transition: .5s;
+                background: white;
+                color: #3A5F56;
+              }
+            }
+
+            .header-box-menu-user {
+              background: #3A5F56;
+              width: 35px;
+              height: 42px;
+              border: 2px solid #3A5F56;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 4px;
+              transition: .3s;
+              margin-right: -39px;
+
+              &:hover {
+                transition: .5s;
+                background: white;
+                color: #3A5F56;
+              }
+            }
+
+            .header-box-menu-links-link {
+              font-family: 'Roboto', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              color: #1f3b34;
+
+              &:hover {
+                transition: .5s;
+                color: #f10b0bc2;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,42 @@
+.slider {
+  padding: 40px 0 40px;
+  position: relative;
+
+  .slider-title {
+    text-align: center;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1a759c;
+    margin-bottom: 40px;
+  }
+
+  .slider-block {
+    width: 100%;
+    border-radius: 30px;
+
+    .slider-block-img {
+      width: 100%;
+      height: 500px;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+  }
+
+  .swiper-button-prev:after {
+    color: #a5a1b2;
+  }
+
+  .swiper-button-prev:hover::after {
+    color: #ffffff;
+  }
+
+  .swiper-button-next:after {
+    color: #a5a1b2;
+  }
+
+  .swiper-button-next:hover::after {
+    color: #ffffff;
+  }
+}
